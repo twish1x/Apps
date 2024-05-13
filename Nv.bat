@@ -7,7 +7,7 @@ powershell -NoProfile Expand-Archive '%temp%\nvidiaProfileInspector.zip' -Destin
 
 chcp 65001 >nul 2>&1
 
-curl -g -k -L -# -o "C:\mt\mt_profile.nip" "https://github.com/twish1x/Apps/main/amp_profile.nip"
+curl -g -k -L -# -o "C:\mt\mt_profile.nip" "https://raw.githubusercontent.com/twish1x/Apps/main/amp_profile.nip"
 
 echo %w% - Applying Nvidia Profile Inspector Profile%b%
 start "" /wait "C:\mt\NvidiaProfileInspector.exe" "C:\mt\mt_profile.nip" 
