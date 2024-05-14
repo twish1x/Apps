@@ -69,6 +69,7 @@ if ($NumberOfCores -gt 4) {
 		if ($_.PNPDeviceID -like "*PCI\VEN_*") {
 			Reg Add "HKLM\System\CurrentControlSet\Enum\$($_.PNPDeviceID)\Device Parameters\Interrupt Management\Affinity Policy" /v "DevicePolicy" /t REG_DWORD /d "4" /f > $null
 			Reg Add "HKLM\System\CurrentControlSet\Enum\$($_.PNPDeviceID)\Device Parameters\Interrupt Management\Affinity Policy" /v "AssignmentSetOverride" /t REG_BINARY /d "04" /f > $null
+			Start-Sleep -s 5
 		}
 	}
 }
