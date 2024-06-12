@@ -1,0 +1,4 @@
+{
+    "DFIntTaskSchedulerTargetFps": 1500,
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False"
+}
