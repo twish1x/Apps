@@ -1,3 +1,4 @@
+@echo off
 Echo Disable Devices through DevManView
 devmanview /disable ""High Precision Event Timer""
 devmanview /disable ""Microsoft GS Wavetable Synth""
