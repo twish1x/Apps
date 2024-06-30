@@ -49,3 +49,4 @@ devmanview /disable ""WAN Miniport (SSTP)""
 echo Disabled WAN Miniport (SSTP)
 devmanview /disable ""WAN Miniport (Network Monitor)""
 echo Disabled WAN Miniport (Network Monitor)
+pause
