@@ -1,4 +1,4 @@
-
+@echo off
 mkdir C:\optimizations
 cls
 
